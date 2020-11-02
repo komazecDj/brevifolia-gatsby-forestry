@@ -5,8 +5,6 @@ admin_path: ''
 webhook_url: 
 sections:
 - type: heading
-  label: TestHeading
-- type: heading
   label: Content
 - type: directory
   path: content/posts
@@ -15,6 +13,7 @@ sections:
   match: "**/*"
   new_doc_ext: md
   templates:
+  - blog-post
   - blog-post
 - type: document
   path: content/data/authors.yaml
