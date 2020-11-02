@@ -14,7 +14,6 @@ sections:
   new_doc_ext: md
   templates:
   - blog-post
-  - blog-post
 - type: document
   path: content/data/authors.yaml
   label: Author List
